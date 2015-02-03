@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather",
+  "description": "Gives you weather report.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "sun.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "http://api.openweathermap.org/"
+  ],
+
+  "content_security_policy":
+  "script-src 'self' http://localhost; object-src 'self'"
+
+}
