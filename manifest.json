@@ -12,10 +12,10 @@
   },
   "permissions": [
     "activeTab",
-    "http://api.openweathermap.org/"
+    "http://api.instagram.com/",
+    "https://ajax.googleapis.com/"
   ],
 
-  "content_security_policy":
-  "script-src 'self' http://localhost; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://swapi.co/; object-src 'self' https://swapi.co/"
 
 }
